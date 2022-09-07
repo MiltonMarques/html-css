@@ -1,0 +1,60 @@
+@charset "utf8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    min-width: 300px;
+
+}
+h1{
+    text-align: center;
+}
+
+
+
+table{
+  
+    margin-left: 320px;
+    width: 700px;
+    max-width: 800px;
+    min-width: 300px;
+    position: relative;
+   
+
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+
+
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+  
+}
+td.tamanho01{
+    width: 0px;
+}
+thead,tfoot{
+background-color: gray;
+color: white;
+}
+caption{
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color:rgba(161, 159, 159, 0.219) ;
+}
+
+tbody>tr:nth-child(2n){  background-color:rgba(148, 146, 146, 0.404) ;
+    
+}
+p{
+    text-align: center;
+}
+   
+
+
+

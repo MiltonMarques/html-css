@@ -1,0 +1,151 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'chopsic.otf';
+    src: url('chopsic.otf')format('opentype');
+}
+body{ font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+      background-image: linear-gradient(to bottom,rgb(2, 77, 2),green);
+       
+        min-height: 150px;
+        text-align: center;
+        padding-top: 50px;
+        
+        
+
+    }
+    @import url('https://fonts.googleapis.com/css2? família= Josefin+Sans:wght@300 &family= Monoton & family= Oleo+Script+Swash+Caps & display=swap');
+
+    @import url('https://fonts.googleapis.com/css2? família= Josefin+Sans:wght@300 &family= Monoton & family= Oleo+Script+Swash+Caps & display=swap');
+
+ 
+h1#tamanho01{
+    color: white;
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+   
+}
+    
+
+ a:hover{
+     color: rgb(240, 56, 56);
+ }
+ aside>h3{
+     background-color: rgb(9, 97, 21);
+     color: white;
+     padding: 10px;
+     margin: -10px -10px 0px -10px;
+     border-radius: 10px 10px 0px 0px;
+ }
+
+
+
+
+
+ 
+strong{
+    background-color: rgb(103, 238, 114);
+}
+    aside{background-color: rgb(41, 202, 55);
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+
+      
+
+    }
+    aside>ul{
+        columns: 2;
+    }
+    
+
+    h1{
+        font-weight: normal;
+        font-family: 'chopsic.otf';
+
+    }
+    h2{
+        font-weight: normal;
+        font-family: 'chopsic.otf';
+    }
+    h3{
+        font-weight: normal;
+        font-family: 'chopsic.otf';
+    }
+    div.video{
+        background-color:rgb(9, 97, 21);
+        margin: 0px -5px 12px -9px;
+      padding: 20px;
+      padding-bottom: 50%;
+      position: relative;
+        
+    }
+    div.video>iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+     
+    
+   
+       
+    
+
+
+ 
+
+
+    nav>a{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: o,3s;
+    }
+    nav> a:hover{
+        background-color: rgba(99, 250, 205, 0.788);
+    }
+    main{
+        background-color: rgba(183, 248, 183, 0.884);
+        min-width: 400px;
+        max-width:800px;
+        margin: auto;
+        padding: 10px;
+        
+    }
+    
+    nav{
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+
+s
+    header> h1{font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 3em;
+        margin-bottom: 20px;
+
+    }
+    header>p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 500px;
+        margin:auto;
+    }
+    nav{
+        background-color: rgb(1, 58, 18);
+    }
+    footer{
+        background-color: rgb(12, 131, 22);
+        color: white;
+        text-align: center;
+    }
+
